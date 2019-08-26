@@ -11,7 +11,7 @@ app.set("views", path.join(__dirname, "views"));
 
 //simple route
 app.use(express.json());
-app.use(authRouter);
+app.use("/auth", authRouter);
 app.use(homeRouter);
 
 module.exports = app;

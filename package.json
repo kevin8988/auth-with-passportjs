@@ -1,0 +1,17 @@
+{
+  "name": "auth-with-passportjs",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/kevin8988/auth-with-passportjs.git",
+  "author": "KevinChips <kevsilva07@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
